@@ -54,6 +54,16 @@ h3{
     
     
 }
+a{display: flex;
+    gap:1%;
+    width: auto;
+}
+.iconos{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content:space-between;
+}
 ul p{
     margin:2% 0 2% 0;
 }
