@@ -80,6 +80,11 @@ main{
     font-size:1vw;
     
 }
+footer{
+    display:flex;
+    background-image:url(https://www.publicdomainpictures.net/pictures/330000/nahled/technology-2020-1585159757ded.jpg) ;
+
+}
 section{
     width:64%;
     display: flex;
@@ -178,7 +183,7 @@ span{
     font: bold 1.5em/100% Helvética, Arial, sans-serif;
     font-size: 3.5 vw;
     text-decoration: none;
-   text-align: center;
+    text-align: center;
 } 
 
 #foto{
@@ -192,16 +197,17 @@ span{
 }
 .iconos a{
     color:white;
-    height:auto;
-    margin: 4vw 2VW 0 2VW;
-    
+    width:auto;
+    margin: 0vw 0VW 0 2VW;
+    font-size: 1.5em/100% Helvética, Arial, sans-serif;
+    text-decoration: none;
     
 }
- 
+
 
 #face,#insta, #git, #linkedin{
     font: 1.5em/100% Helvética, Arial, sans-serif;
-    text-align: right;
+    text-align: left;
 }
 
 @keyframes Progress{
