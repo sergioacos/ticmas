@@ -39,6 +39,7 @@ h3{
 
 }
 
+
 .barra{
    /* font-size: 2.5vw;*/
     text-align:left;
@@ -56,6 +57,7 @@ h3{
     
 }
 a{display: flex;
+    align-items: center;
     gap:1%;
     width: auto;
 }
@@ -69,6 +71,7 @@ ul p{
     margin:2% 0 2% 0;
 }
 p{
+    text-align: justify;
     margin:4% 0 4% 0;
 }
 main{
@@ -78,13 +81,14 @@ main{
     margin: 5%;
     gap:2%;
     font:  1.5em/100% Helvética, Arial, sans-serif;
-    font-size:1vw;
-    
+    font-size:1vw; 
 }
 footer{
     display:flex;
+    justify-content: center;
+    align-items: center;
     background-image:url(https://www.publicdomainpictures.net/pictures/330000/nahled/technology-2020-1585159757ded.jpg) ;
-
+    margin: 5% 5% 0 5% ;
 }
 section{
     width:64%;
@@ -102,7 +106,9 @@ ul{
     /*list-style-type:none;*/
 margin: 0 auto;
 }
-
+h4,h5{
+    margin:2%;
+}
 .ProgresoContenedor{
     display: flex;
     align-items: center;
@@ -225,7 +231,14 @@ span{
     /*flex-grow: 1;*/
     font-size: 1.2vw;
     line-height: 1.2;
-
+}
+#list{
+    list-style-type:none;
+    padding-left: 0;
+}
+#list li{
+    margin-left: 0;
+    
 }
 #nombre{
     margin: 0 auto 1% auto;
