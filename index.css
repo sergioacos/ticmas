@@ -174,7 +174,9 @@ span{
     font-size: 2.3rem;
     margin: 3% 0 3% 0;
 }
-
+.etiqueta{
+    font-size: 1rem;
+}
 .iconos a{
     color:white;
     width:auto;
@@ -269,9 +271,9 @@ ul li{
     height: auto;
     overflow-wrap:break-word;
     word-wrap: break-word;
-    hyphens: manual;
     -webkit-hyphens: manual;
     -ms-hyphens: manual;
+    hyphens: manual;
 }
 .competencias{
     display: flex;
