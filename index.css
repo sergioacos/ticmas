@@ -19,7 +19,7 @@ nav{
     margin:2% 0 0 5%;
 }
 body{ background-color: rgb(255, 255, 255);
-    color:rgb(214, 213, 213)
+    color:rgb(214, 213, 213);
    
    }
 h3{
@@ -279,6 +279,17 @@ ul li{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+}
+.chek{
+    overflow-wrap: break-word;
+    line-height: 1.2;
+
+}
+.social:hover{
+    transform:scale(1.2) ;
+}
+.red:hover{
+    transform:scale(1.2) ;
 }
 @media screen and (max-width: 800px){
     
