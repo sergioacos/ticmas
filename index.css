@@ -273,7 +273,7 @@ ul li{
     word-wrap: break-word;
     -webkit-hyphens: manual;
     -ms-hyphens: manual;
-    hyphens: manual;
+    hyphens: auto;
 }
 .competencias{
     display: flex;
